@@ -29,11 +29,11 @@ a:link {
 /*****      SECTION GLOBAL STYLES - MAIN STYLES      *****/
 
 .section-img {
-    height: 50vh;
+    height: 60vh;
 }
 
 .section-img-title {
-    padding-top: 20vh;
+    padding-top: 25vh;
     text-align: center;
 }
 
@@ -47,14 +47,14 @@ a:link {
 }
 
 .section-content {
-    margin-bottom:20vh;
+    margin-bottom: 20vh;
     margin-top: 20vh;
     font-size: 1.4em;
-    font-weight:400;
+    font-weight: 400;
 }
 
-.clear-fix{
-    clear:both;
+.clear-fix {
+    clear: both;
 }
 
 
