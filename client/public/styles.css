@@ -82,8 +82,11 @@ video#bgvid {
 
 #overlay-logo-img {
     position: absolute;
-    display: block;
-    margin-left: 28vw;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 #top-section {
