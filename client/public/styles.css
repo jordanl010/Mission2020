@@ -119,3 +119,10 @@ video#bgvid {
     background-position: center;
     background-attachment: fixed;
 }
+
+#fourth-section {
+    background-image: url('../img/contentslides/o_green.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
