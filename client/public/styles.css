@@ -29,11 +29,11 @@ a:link {
 /*****      SECTION GLOBAL STYLES - MAIN STYLES      *****/
 
 .section-img {
-    height: 80vh;
+    height: 60vh;
 }
 
 .section-img-title {
-    padding-top: 35vh;
+    padding-top: 25vh;
     text-align: center;
     color: white;
 }
