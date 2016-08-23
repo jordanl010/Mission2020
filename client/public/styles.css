@@ -33,8 +33,9 @@ a:link {
 }
 
 .section-img-title {
-    padding-top: 25vh;
+    padding-top: 35vh;
     text-align: center;
+    color: white;
 }
 
 .section-wrapper {
