@@ -65,7 +65,7 @@ a:link {
 }
 
 #first-section {
-    background-image: url('../img/contentslides/o_mountains.png');
+    background-image: url('../img/contentslides/mountains.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -76,14 +76,14 @@ a:link {
 }
 
 #second-section {
-    background-image: url('../img/contentslides/o_alaska_ice.png');
+    background-image: url('../img/contentslides/alaska_ice.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 #third-section {
-    background-image: url('../img/contentslides/o_open_range.png');
+    background-image: url('../img/contentslides/open_range.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
