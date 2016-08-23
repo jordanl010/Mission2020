@@ -1,0 +1,88 @@
+/*****      GLOBAL STYLES - MAIN STYLES      *****/
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6em;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:link {
+    color: inherit;
+    text-decoration: none;
+    /* no underline */
+}
+
+.container-fluid {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+/*****      END GLOBAL STYLES       *****/
+
+
+/*****      SECTION GLOBAL STYLES - MAIN STYLES      *****/
+
+.section-img {
+    height: 40vh;
+}
+
+.section-content {
+    height: 60vh;
+}
+
+.section-img-title {
+    padding-top: 20vh;
+    text-align: center;
+}
+
+.section-wrapper {
+    height: 120vh;
+}
+
+.section-img-title {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.section-content {
+    margin-top: 20vh;
+    font-size: 1.4em;
+}
+
+
+/*****      GENERIC SECTION GLOBAL STYLES - MAIN STYLES      *****/
+
+#top-section {
+    height: 100vh;
+}
+
+#first-section {
+    background-image: url('../img/contentslides/o_mountains.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#second-section-content {
+    margin-top: 10vh !important;
+}
+
+#second-section {
+    background-image: url('../img/contentslides/o_alaska_ice.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#third-section {
+    background-image: url('../img/contentslides/o_open_range.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

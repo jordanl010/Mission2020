@@ -1,0 +1,104 @@
+<!doctype html>
+<html ng-app="mission2020App">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission2020</title>
+    <!-- styles -->
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/yeti/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/6.1.5/css/bootstrap-slider.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <link href="./public/styles.css" rel="stylesheet">
+
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="./img/just_m.ico" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="top-section">
+            <div class="overlay"></div>
+            <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+<!--
+                <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">
+                <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4">
+-->
+            </video>
+        </div>
+        <div class="section-wrapper" id="first-section-wrapper">
+            <div id="first-section" class="section-img" parallax-background parallax-ratio="0.2">
+                <div class="section-img-title">INTRODUCTION.</div>
+            </div>
+            <div class="section-content col-lg-8 col-lg-offset-2">
+                Mission 2020, under the leadership of Christiana Figueres, is a new type of collaborative venture that is bringing together institutions, governments and the private sector to achieve peaking of global emissions by 2020.Because the imperative to peak by 2020 has not been widely understood, Mission 2020 is working on two priority areas: raising awareness so that there is an urgency for change and generating the conditions for action.
+                <br>
+                <br> Mission 2020 is working closely with influencers, thought leaders and experts to create widespread demand for accelerated progress, and is mobilizing stakeholders to achieve breakthroughs on major systemic issues and to shift investment patterns in rapidly accelerated timeframes.
+                <br>
+                <br> Mission 2020 will achieve material breakthroughs in targeted areas by 2020 that will collectively tip us over the edge of global peaking, and will encourage governments and all actors to raise their own ambitions under the Paris Agreement. This will be achieved both through the sustained focus of the right institutions who together hold the keys to unlocking the issue, and also through a Global Network of leaders from across the globe who understand the urgency of peaking by 2020 and will commit to using their time and positions to unblock problems and advance issues as needed.
+            </div>
+        </div>
+        <div class="section-wrapper" id="second-section-wrapper">
+            <div id="second-section" class="section-img" parallax-background parallax-ratio="0.2">
+                <div class="section-img-title">WHY 2020?</div>
+            </div>
+            <div id="second-section-content" class="section-content col-lg-8 col-lg-offset-2">
+                The Paris Agreement was a milestone in the global community’s collective journey to address the dangers of climate change, stimulating an unprecedented set of commitments from governments, businesses, and civil society.
+                <br>
+                <br> But now we have an opportunity to turn commitments into unstoppable action and overacheivement bringing <b>global emissions into rapid decline by 2020</b>. We can and must deliver a new wave of development that is good for people and planet.
+                <br>
+                <hr>
+                <br> <b>Science Demands It:</b> The 2015 commitments were historic, but fall below the commitments called for by the scientific community. Peaking greenhouse gas emissions after 2025 will make reaching a 2°C and 1.5°C degree limit almost impossible to achieve.
+                <br>
+                <br> <b>Human Development is at Stake:</b> Failing to peak greenhouse gas emissions by 2020 will threaten vulnerable areas of our planet. Developing countries will lose the gains made over the past 20 years, putting the Sustainable Development Goals out of reach and subjecting billions of people to deep and irreversible poverty and harm.
+                <br>
+                <br> <b>2018 is the Moment that Defines the Post-2020 World:</b> Governments will come back to the table at the end of 2018 to review the commitments they made in Paris. The year 2018 will be an opportunity to strengthen the commitments made in Paris so that peaking by 2020 can be realized.
+            </div>
+        </div>
+
+        <div class="section-wrapper" id="third-section-wrapper">
+            <div id="third-section" class="section-img" parallax-background parallax-ratio="0.2">
+                <div class="section-img-title"> SHARED GOALS.</div>
+            </div>
+            <div class="section-content col-lg-8 col-lg-offset-2">
+                <b>A FIVE-YEAR INITIATIVE WITH A SHARED COMMITMENT TO A COMMON GOAL</b>
+                <br>
+                <br> Mission 2020 is an agile fast paced commitment, that works collectively with stakeholders to bring together the public and private sectors to deliver a net-zero emissions pathway. It is a transformative partner to those already engaged in these issues.
+                <br>
+                <br> It is an enabler, not a competitor, of existing institutions. Mission 2020 is a five-year initiative with a shared commitment to a common goal. By working across multiple sectors, it is increasing the impact of climate actions and inspiring new, effective methods of achieving the change our planet needs.
+                <br>
+                <br> Mission 2020 also seeks to broaden and deepen participation in climate action globally.
+            </div>
+        </div>
+    </div>
+
+
+    <!-- scripts -->
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.min.js"></script>
+
+    <script src="./main.js"></script>
+
+    <script src="bower_components/moment/moment.js"></script>
+    <script type='text/javascript' src='bower_components/parallax/parallax.js'></script>
+    <!--
+<script src="//oblador.github.io/angular-scroll/0.6.2/angular-scroll.min.js"></script>
+<script src="//oblador.github.io/angular-parallax/angular-parallax.min.js"></script>
+-->
+
+    <script>
+        $(document).ready(function() {
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                // some code..
+            } else {}
+        });
+
+    </script>
+</body>
+
+</html>
