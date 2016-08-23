@@ -33,7 +33,6 @@ a:link {
 }
 
 .section-content {
-    height: 60vh;
 }
 
 .section-img-title {
@@ -42,7 +41,7 @@ a:link {
 }
 
 .section-wrapper {
-    height: 120vh;
+    /*height: 120vh;*/
 }
 
 .section-img-title {
@@ -51,8 +50,13 @@ a:link {
 }
 
 .section-content {
+    margin-bottom:20vh;
     margin-top: 20vh;
     font-size: 1.4em;
+}
+
+.clear-fix{
+    clear:both;
 }
 
 
