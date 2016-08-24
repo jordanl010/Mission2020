@@ -2,8 +2,6 @@
 
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
 @import 'https://fonts.googleapis.com/css?family=Roboto';
-
-
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -31,6 +29,37 @@ a:link {
 
 
 /*****      SECTION GLOBAL STYLES - MAIN STYLES      *****/
+
+.navbar {
+    position: absolute;
+    z-index: 999;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    width: 99vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar li {
+    margin: 20px;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: 0 !important;
+}
+
+#navbar-img {
+    height: 35px;
+    margin: 10px;
+}
+
+.navbar-inner {
+    background: transparent !important;
+}
 
 video#bgvid {
     position: relative;
@@ -87,6 +116,7 @@ video#bgvid {
     left: 0;
     right: 0;
     bottom: 0;
+    height: 25%;
 }
 
 #top-section {

@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
     <link rel="stylesheet" href="bower_components/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="bower_components/bootstrap_scrolling/css/scrolling-nav.css" type="text/css" />
 
 
     <link href="./public/styles.css" rel="stylesheet">
@@ -23,9 +24,36 @@
 
 <body>
     <div class="container-fluid">
-        <div id="top-section">
+        <!--
+<div class="navbar transparent navbar-inverse">
+    <div class="navbar-inner"></div>
+</div>-->
+
+
+        <nav class="navbar navbar-default">
+            <a class="navbar-brand" href="#"><img id="navbar-img" src="img/just_m_white.png" class="img-responsive" /></a>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#intro">INTRO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#why">WHY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#sharedgoals">SHARED GOALS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#people">PEOPLE</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="top-section" class="page-scroll" href="#home">
             <div class="overlay"></div>
-            <img id="overlay-logo-img" src="img/just_m_white.png" />
+            <img id="overlay-logo-img" src="img/m_white.png" />
 
             <iframe allowfullscreen frameborder="0" height="100%" width="100%" src="https://youtube.com/embed/28ji6G5hTRw?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1&playlist=28ji6G5hTRw">
             </iframe>
@@ -39,55 +67,62 @@
         <div id="top-logo-section">
             <img id="top-logo-img" src="img/m_black.png" />
         </div>
-        <div class="section-wrapper" id="first-section-wrapper">
-            <div id="first-section" class="section-img" parallax-background parallax-ratio="0.1">
-                <div class="section-img-title">INTRODUCTION</div>
-            </div>
-            <div class="section-content col-lg-8 col-lg-offset-2">
-                Mission 2020, under the leadership of Christiana Figueres, is a new type of collaborative venture that is bringing together institutions, governments and the private sector to achieve peaking of global emissions by 2020. Because the imperative to peak by 2020 has not been widely understood, Mission 2020 is working on two priority areas: raising awareness so that there is an urgency for change and generating the conditions for action.
-                <br>
-                <br> Mission 2020 is working closely with influencers, thought leaders and experts to create widespread demand for accelerated progress, and is mobilizing stakeholders to achieve breakthroughs on major systemic issues and to shift investment patterns in rapidly accelerated timeframes.
-                <br>
-                <br> Mission 2020 will achieve material breakthroughs in targeted areas by 2020 that will collectively tip us over the edge of global peaking, and will encourage governments and all actors to raise their own ambitions under the Paris Agreement. This will be achieved both through the sustained focus of the right institutions who together hold the keys to unlocking the issue, and also through a Global Network of leaders from across the globe who understand the urgency of peaking by 2020 and will commit to using their time and positions to unblock problems and advance issues as needed.
-            </div>
-            <div class="clear-fix"></div>
-        </div>
-        <div class="section-wrapper" id="second-section-wrapper">
-            <div id="second-section" class="section-img" parallax-background parallax-ratio="0.1">
-                <div class="section-img-title">WHY 2020?</div>
-            </div>
-            <div id="second-section-content" class="section-content col-lg-8 col-lg-offset-2">
-                The Paris Agreement was a milestone in the global community’s collective journey to address the dangers of climate change, stimulating an unprecedented set of commitments from governments, businesses, and civil society.
-                <br>
-                <br> But now we have an opportunity to turn commitments into unstoppable action and overacheivement bringing <b>global emissions into rapid decline by 2020</b>. We can and must deliver a new wave of development that is good for people and planet.
-                <br>
-                <hr>
-                <br> <b>Science Demands It:</b> The 2015 commitments were historic, but fall below the commitments called for by the scientific community. Peaking greenhouse gas emissions after 2025 will make reaching a 2°C and 1.5°C degree limit almost impossible to achieve.
-                <br>
-                <br> <b>Human Development is at Stake:</b> Failing to peak greenhouse gas emissions by 2020 will threaten vulnerable areas of our planet. Developing countries will lose the gains made over the past 20 years, putting the Sustainable Development Goals out of reach and subjecting billions of people to deep and irreversible poverty and harm.
-                <br>
-                <br> <b>2018 is the Moment that Defines the Post-2020 World:</b> Governments will come back to the table at the end of 2018 to review the commitments they made in Paris. The year 2018 will be an opportunity to strengthen the commitments made in Paris so that peaking by 2020 can be realized.
+        <section id="intro">
+            <div class="section-wrapper page-scroll" id="first-section-wrapper">
+                <div id="first-section" class="section-img" parallax-background parallax-ratio="0.1">
+                    <div class="section-img-title">INTRODUCTION</div>
+                </div>
+                <div class="section-content col-lg-8 col-lg-offset-2">
+                    Mission 2020, under the leadership of Christiana Figueres, is a new type of collaborative venture that is bringing together institutions, governments and the private sector to achieve peaking of global emissions by 2020. Because the imperative to peak by 2020 has not been widely understood, Mission 2020 is working on two priority areas: raising awareness so that there is an urgency for change and generating the conditions for action.
+                    <br>
+                    <br> Mission 2020 is working closely with influencers, thought leaders and experts to create widespread demand for accelerated progress, and is mobilizing stakeholders to achieve breakthroughs on major systemic issues and to shift investment patterns in rapidly accelerated timeframes.
+                    <br>
+                    <br> Mission 2020 will achieve material breakthroughs in targeted areas by 2020 that will collectively tip us over the edge of global peaking, and will encourage governments and all actors to raise their own ambitions under the Paris Agreement. This will be achieved both through the sustained focus of the right institutions who together hold the keys to unlocking the issue, and also through a Global Network of leaders from across the globe who understand the urgency of peaking by 2020 and will commit to using their time and positions to unblock problems and advance issues as needed.
+                </div>
+                <div class="clear-fix"></div>
             </div>
             <div class="clear-fix"></div>
         </div>
-
-        <div class="section-wrapper" id="third-section-wrapper">
-            <div id="third-section" class="section-img" parallax-background parallax-ratio="0.1">
-                <div class="section-img-title"> SHARED GOALS</div>
+        </section>
+        <section id="why">
+            <div class="section-wrapper" id="second-section-wrapper">
+                <div id="second-section" class="section-img" parallax-background parallax-ratio="0.1">
+                    <div class="section-img-title">WHY 2020?</div>
+                </div>
+                <div id="second-section-content" class="section-content col-lg-8 col-lg-offset-2">
+                    The Paris Agreement was a milestone in the global community’s collective journey to address the dangers of climate change, stimulating an unprecedented set of commitments from governments, businesses, and civil society.
+                    <br>
+                    <br> But now we have an opportunity to turn commitments into unstoppable action and overacheivement bringing <b>global emissions into rapid decline by 2020</b>. We can and must deliver a new wave of development that is good for people and planet.
+                    <br>
+                    <hr>
+                    <br> <b>Science Demands It:</b> The 2015 commitments were historic, but fall below the commitments called for by the scientific community. Peaking greenhouse gas emissions after 2025 will make reaching a 2°C and 1.5°C degree limit almost impossible to achieve.
+                    <br>
+                    <br> <b>Human Development is at Stake:</b> Failing to peak greenhouse gas emissions by 2020 will threaten vulnerable areas of our planet. Developing countries will lose the gains made over the past 20 years, putting the Sustainable Development Goals out of reach and subjecting billions of people to deep and irreversible poverty and harm.
+                    <br>
+                    <br> <b>2018 is the Moment that Defines the Post-2020 World:</b> Governments will come back to the table at the end of 2018 to review the commitments they made in Paris. The year 2018 will be an opportunity to strengthen the commitments made in Paris so that peaking by 2020 can be realized.
+                </div>
+                <div class="clear-fix"></div>
             </div>
-            <div class="section-content col-lg-8 col-lg-offset-2">
-                <b>A FIVE-YEAR INITIATIVE WITH A SHARED COMMITMENT TO A COMMON GOAL</b>
-                <br>
-                <br> Mission 2020 is an agile fast paced commitment, that works collectively with stakeholders to bring together the public and private sectors to deliver a net-zero emissions pathway. It is a transformative partner to those already engaged in these issues.
-                <br>
-                <br> It is an enabler, not a competitor, of existing institutions. Mission 2020 is a five-year initiative with a shared commitment to a common goal. By working across multiple sectors, it is increasing the impact of climate actions and inspiring new, effective methods of achieving the change our planet needs.
-                <br>
-                <br> Mission 2020 also seeks to broaden and deepen participation in climate action globally.
+        </section>
+        <section id="sharedgoals">
+            <div class="section-wrapper" id="third-section-wrapper">
+                <div id="third-section" class="section-img" parallax-background parallax-ratio="0.1">
+                    <div class="section-img-title"> SHARED GOALS</div>
+                </div>
+                <div class="section-content col-lg-8 col-lg-offset-2">
+                    <b>A FIVE-YEAR INITIATIVE WITH A SHARED COMMITMENT TO A COMMON GOAL</b>
+                    <br>
+                    <br> Mission 2020 is an agile fast paced commitment, that works collectively with stakeholders to bring together the public and private sectors to deliver a net-zero emissions pathway. It is a transformative partner to those already engaged in these issues.
+                    <br>
+                    <br> It is an enabler, not a competitor, of existing institutions. Mission 2020 is a five-year initiative with a shared commitment to a common goal. By working across multiple sectors, it is increasing the impact of climate actions and inspiring new, effective methods of achieving the change our planet needs.
+                    <br>
+                    <br> Mission 2020 also seeks to broaden and deepen participation in climate action globally.
+                </div>
+                <div class="clear-fix"></div>
             </div>
-            <div class="clear-fix"></div>
-        </div>
-
-        <div class="section-wrapper">
+        </section>
+        <section id="people">
+            <div class="section-wrapper">
             <div id="fourth-section" class="section-img" parallax-background parallax-ratio="0.1">
                 <div class="section-img-title"> PEOPLE</div>
             </div>
@@ -180,6 +215,7 @@
         </div>
         </div>
     </div>
+        </section>
     </div>
 
 
@@ -194,6 +230,8 @@
     <script src="bower_components/moment/moment.js"></script>
     <script type='text/javascript' src='bower_components/parallax/parallax.js'></script>
     <script type="text/javascript" src="bower_components/fancybox/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap_scrolling/js/scrolling-nav.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap_scrolling/js/jquery.easing.min.js"></script>
 
     <!--
 <script src="//oblador.github.io/angular-scroll/0.6.2/angular-scroll.min.js"></script>
