@@ -135,3 +135,39 @@ video#bgvid {
     background-position: center;
     background-attachment: fixed;
 }
+
+/*****      PEOPLE STYLES      *****/
+.people-staff-title {
+    font-weight: 900;
+    text-align: center;
+    font-size: 36px;
+}
+
+.people-row {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.people-col-centered {
+    display:inline-block;
+    float:none;
+}
+
+.thumbnail-title {
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.thumbnail-subtitle {
+    font-weight: 200;
+    font-size: 13px;
+    margin-top: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#fifth-section {
+    background-color: black;
+    color: white;
+}
