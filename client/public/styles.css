@@ -2,8 +2,45 @@
 
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
 @import 'https://fonts.googleapis.com/css?family=Roboto';
+
+
+@font-face {
+
+font-family: 'ProximaNova';
+font-style: normal;
+font-weight: normal;
+src:  url(./fonts/ProximaNova-Reg.otf);
+
+}
+@font-face {
+
+font-family: 'ProximaNova';
+font-style: italic;
+font-weight: normal;
+   src:  url(./fonts/ProximaNova-RegItalic.otf);
+
+}
+
+@font-face {
+
+font-family: 'ProximaNova';
+font-style: normal;
+font-weight: bold;
+  src:  url(./fonts/ProximaNova-Sbold.otf);
+
+}
+
+@font-face {
+
+font-family: 'ProximaNova';
+font-style: italic;
+font-weight: bold;
+src:  url(./fonts/ProximaNova-SboldItalic.otf);
+
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'ProximaNova', 'Roboto', sans-serif;
     font-size: 14px;
 }
 
@@ -44,7 +81,7 @@ a:link {
 }
 
 .navbar li {
-    margin: 20px;
+    margin: 20px 10px 20px 10px;
 }
 
 .navbar-right {
@@ -201,3 +238,5 @@ video#bgvid {
     background-color: black;
     color: white;
 }
+
+/*****      LIGHTBOX STYLES      *****/
