@@ -81,6 +81,12 @@ a:link {
     transition: all 1s
 }
 
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.8);
+    }
+}
+
 .navbar li {
     margin: 20px 10px 20px 10px;
 }
@@ -240,6 +246,13 @@ video#bgvid {
 
 #fourth-section {
     background-image: url('../img/contentslides/o_green.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#last-section {
+    background-image: url('../img/contentslides/birds.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
