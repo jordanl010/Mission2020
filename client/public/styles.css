@@ -2,41 +2,32 @@
 
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
 @import 'https://fonts.googleapis.com/css?family=Roboto';
-
-
 @font-face {
-
-font-family: 'ProximaNova';
-font-style: normal;
-font-weight: normal;
-src:  url(./fonts/ProximaNova-Reg.otf);
-
-}
-@font-face {
-
-font-family: 'ProximaNova';
-font-style: italic;
-font-weight: normal;
-   src:  url(./fonts/ProximaNova-RegItalic.otf);
-
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: normal;
+    src: url(./fonts/ProximaNova-Reg.otf);
 }
 
 @font-face {
-
-font-family: 'ProximaNova';
-font-style: normal;
-font-weight: bold;
-  src:  url(./fonts/ProximaNova-Sbold.otf);
-
+    font-family: 'ProximaNova';
+    font-style: italic;
+    font-weight: normal;
+    src: url(./fonts/ProximaNova-RegItalic.otf);
 }
 
 @font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: bold;
+    src: url(./fonts/ProximaNova-Sbold.otf);
+}
 
-font-family: 'ProximaNova';
-font-style: italic;
-font-weight: bold;
-src:  url(./fonts/ProximaNova-SboldItalic.otf);
-
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: italic;
+    font-weight: bold;
+    src: url(./fonts/ProximaNova-SboldItalic.otf);
 }
 
 body {
@@ -68,16 +59,26 @@ a:link {
 /*****      SECTION GLOBAL STYLES - MAIN STYLES      *****/
 
 .navbar {
-    position: absolute;
+    position: fixed;
     z-index: 999;
     margin-bottom: 0 !important;
     padding: 0 !important;
-    background: transparent !important;
+    background-color: transparent;
     width: 99vw;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.navbar-bg {
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: -10px;
+    height: 70px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s
 }
 
 .navbar li {
@@ -87,6 +88,7 @@ a:link {
 .navbar-right {
     float: right !important;
     margin-right: 0 !important;
+    font-weight: bold;
 }
 
 #navbar-img {
@@ -95,7 +97,7 @@ a:link {
 }
 
 .navbar-inner {
-    background: transparent !important;
+    background: transparent;
 }
 
 video#bgvid {
@@ -225,15 +227,14 @@ video#bgvid {
     background-attachment: fixed;
 }
 
-
-#footer-section-content{
+#footer-section-content {
     text-align: right;
     margin-top: 2vh !important;
     margin-bottom: 2vh !important;
 }
 
-#dh-logo{
-    height:25px;
+#dh-logo {
+    height: 25px;
 }
 
 
@@ -273,5 +274,6 @@ video#bgvid {
     background-color: black;
     color: white;
 }
+
 
 /*****      LIGHTBOX STYLES      *****/
