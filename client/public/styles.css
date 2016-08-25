@@ -81,12 +81,6 @@ a:link {
     transition: all 1s
 }
 
-@media (max-width: 768px) {
-    .navbar-collapse {
-        background: rgba(0, 0, 0, 0.8);
-    }
-}
-
 .navbar li {
     margin: 20px 10px 20px 10px;
 }
@@ -145,7 +139,7 @@ video#bgvid {
 
 .section-content-title-hr,
 .people-hr {
-    width: 400px;
+    width: 40%;
 }
 
 .section-content-title-hr {
@@ -308,3 +302,63 @@ video#bgvid {
 
 
 /*****      LIGHTBOX STYLES      *****/
+
+
+/*****      MEDIA QUERIES       *****/
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.8);
+    }
+}
+
+@media (max-width: 1500px) {
+    #overlay-logo-img {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 50%;
+    }
+}
+
+@media (max-width: 1100px) {
+    #overlay-logo-img {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 30%;
+    }
+}
+
+@media (max-width: 650px) {
+    #overlay-logo-img {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 10%;
+    }
+}
+
+@media (max-width: 750px) {
+    .section-img-title {
+        font-size: 28px !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .section-content-title {
+        font-size: 30px !important;
+    }
+    .people-staff-title {
+        font-size: 25px !important;
+    }
+}
