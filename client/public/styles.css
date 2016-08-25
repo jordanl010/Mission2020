@@ -368,3 +368,9 @@ video#bgvid {
         font-size: 25px !important;
     }
 }
+
+@media only screen and (max-width: 760px) {
+    #mobile-check {
+        display: none;
+    }
+}
