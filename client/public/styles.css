@@ -81,11 +81,13 @@ a:link {
     transition: all 1s
 }
 
+/*
 .navbar-bg-mobile {
     background: rgba(0, 0, 0, 0.8);
     margin-top: -10px;
     height: 70px;
 }
+*/
 
 .navbar li {
     margin: 20px 10px 20px 10px;
@@ -370,7 +372,9 @@ video#bgvid {
 }
 
 @media only screen and (max-width: 760px) {
+/*
     #mobile-check {
         display: none;
     }
+*/
 }
