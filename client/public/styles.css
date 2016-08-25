@@ -225,13 +225,6 @@ video#bgvid {
     background-attachment: fixed;
 }
 
-
-#footer-section-content{
-    text-align: right;
-    margin-top: 2vh !important;
-    margin-bottom: 2vh !important;
-}
-
 #dh-logo{
     height:25px;
 }
@@ -275,3 +268,16 @@ video#bgvid {
 }
 
 /*****      LIGHTBOX STYLES      *****/
+
+/*****      FOOTER STYLES      *****/
+#footer-section-content{
+    text-align: right;
+    margin-top: 2vh !important;
+    margin-bottom: 2vh !important;
+    width: 90%;
+    font-size: 10px;
+}
+
+#footer-section-wrapper {
+    background-color: black;
+}
