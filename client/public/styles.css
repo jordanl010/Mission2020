@@ -108,7 +108,7 @@ video#bgvid {
     height: 100%;
     width: 100%;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .section-img {
@@ -141,6 +141,28 @@ video#bgvid {
 
 .clear-fix {
     clear: both;
+}
+
+video#bgvid {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url('../img/nature.png') no-repeat;
+    background-size: cover;
+}
+
+.section-first-letter {
+    float: left;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
 }
 
 
@@ -203,7 +225,20 @@ video#bgvid {
     background-attachment: fixed;
 }
 
+
+#footer-section-content{
+    text-align: right;
+    margin-top: 2vh !important;
+    margin-bottom: 2vh !important;
+}
+
+#dh-logo{
+    height:25px;
+}
+
+
 /*****      PEOPLE STYLES      *****/
+
 .people-staff-title {
     font-weight: 900;
     text-align: center;
@@ -216,8 +251,8 @@ video#bgvid {
 }
 
 .people-col-centered {
-    display:inline-block;
-    float:none;
+    display: inline-block;
+    float: none;
 }
 
 .thumbnail-title {
