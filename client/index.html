@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html ng-app="mission2020App">
 
 <head>
@@ -21,6 +21,7 @@
 </head>
 
 <body>
+
     <div class="container-fluid">
         <nav class="navbar navbar-default">
             <a class="navbar-brand" href="#"><img id="navbar-img" src="img/m_white.png" class="img-responsive" /></a>
@@ -35,7 +36,7 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#home">HOME</a>
+                            <a class="nav-link" href="#home">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link page-scroll" href="#intro">INTRO</a>
@@ -47,59 +48,34 @@
                             <a class="nav-link page-scroll" href="#sharedgoals">SHARED GOALS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#network">NETWORK</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link page-scroll" href="#people">PEOPLE</a>
-                        </li>
-                        <li class="nav-item">
-                            <div class="dropdown">
-                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">EVENTS
-                                <span class="caret"></span></button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="http://climatehub.nyc/">CLIMATE WEEK</a></li>
-                                </ul>
-                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <section id="home">
-            <div id="top-section">
-                <div class="overlay"></div>
-                <img id="overlay-logo-img" src="img/just_m_words_white.png" />
-                <!--
+
+        <div id="top-section">
+            <div class="overlay"></div>
+            <img id="overlay-logo-img" src="img/just_m_white.png" />
+            <!--
 <iframe allowfullscreen frameborder="0" height="100%" width="100%" src="https://youtube.com/embed/28ji6G5hTRw?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1&playlist=28ji6G5hTRw">
             </iframe>
 -->
-                <video playsinline autoplay muted loop poster="img/desert.png" id="bgvid">
+             <video playsinline autoplay muted loop poster="img/desert.png" id="bgvid">
                     <source src="img/desert.mov" type="video/webm">
                     <source src="img/desert.mp4" type="video/mp4">
-                </video>
-            </div>
-        </section>
-
-        <section>
-            <div class="section-wrapper page-scroll" id="first-section-wrapper">
-                <div class="section-content col-lg-8 col-lg-offset-2">
-                    <div class="people-staff-title">MATERIAL BREAKTHROUGHS IN THE GLOBAL ECONOMY THAT DELIVER A CLIMATE SAFE WORLD AND DEVELOPMENT GAINS FOR ALL. THIS IS THE COMMITMENT OF MISSION 2020.</div>
-                    <br>
-                    <br> <span class="section-first-letter">M</span>ission 2020, under the leadership of Christiana Figueres, is a new type of collaborative venture that concentrates on the most critical shifts in global development required by 2020 to protect the most vulnerable to climate change. We work to increase the impact of climate action, instilling new, effective methods of achieving the change we need while broadening the base of leadership and the depth of commitment from all.
-                </div>
-                <div class="clear-fix"></div>
-            </div>
-            <div class="clear-fix"></div>
-        </section>
+            </video>
+        </div>
+        <div id="top-logo-section">
+            <img id="top-logo-img" src="img/m_black.png" />
+        </div>
         <section id="intro">
             <div class="section-wrapper page-scroll" id="first-section-wrapper">
-                <div id="first-section" class="section-img" parallax-background parallax-ratio="0.2">
-                    <div class="section-img-title">IMPOSSIBLE IS NOT A FACT</div>
+                <div id="first-section" class="section-img" parallax-background parallax-ratio="0.1">
+                    <div class="section-img-title">INTRODUCTION</div>
                 </div>
                 <div class="section-content col-lg-8 col-lg-offset-2">
-                    <div class="section-content-title">INTRODUCTION</div>
-                    <hr class="section-content-title-hr">
-
                     <span class="section-first-letter">M</span>ission 2020, under the leadership of Christiana Figueres, is a new type of collaborative venture that is bringing together institutions, governments and the private sector to achieve peaking of global emissions by 2020. Because the imperative to peak by 2020 has not been widely understood, Mission 2020 is working on two priority areas: raising awareness so that there is an urgency for change and generating the conditions for action.
                     <br>
                     <br> Mission 2020 is working closely with influencers, thought leaders and experts to create widespread demand for accelerated progress, and is mobilizing stakeholders to achieve breakthroughs on major systemic issues and to shift investment patterns in rapidly accelerated timeframes.
@@ -113,12 +89,10 @@
         </section>
         <section id="why">
             <div class="section-wrapper" id="second-section-wrapper">
-                <div id="second-section" class="section-img" parallax-background parallax-ratio="0.2">
-                    <div class="section-img-title">UNSTOPPABLE CLIMATE ACTION</div>
+                <div id="second-section" class="section-img" parallax-background parallax-ratio="0.1">
+                    <div class="section-img-title">WHY 2020?</div>
                 </div>
                 <div id="second-section-content" class="section-content col-lg-8 col-lg-offset-2">
-                    <div class="section-content-title">WHY 2020</div>
-                    <hr class="section-content-title-hr">
                     <span class="section-first-letter">T</span>he Paris Agreement was a milestone in the global community’s collective journey to address the dangers of climate change, stimulating an unprecedented set of commitments from governments, businesses, and civil society.
                     <br>
                     <br> But now we have an opportunity to turn commitments into unstoppable action and overacheivement bringing <b>global emissions into rapid decline by 2020</b>. We can and must deliver a new wave of development that is good for people and planet.
@@ -135,14 +109,11 @@
         </section>
         <section id="sharedgoals">
             <div class="section-wrapper" id="third-section-wrapper">
-                <div id="third-section" class="section-img" parallax-background parallax-ratio="0.2">
-                    <div class="section-img-title">TRANSFORMATIVE COMMITMENT</div>
+                <div id="third-section" class="section-img" parallax-background parallax-ratio="0.1">
+                    <div class="section-img-title"> SHARED GOALS</div>
                 </div>
 
                 <div class="section-content col-lg-8 col-lg-offset-2">
-                    <div class="section-content-title">SHARED GOAL</div>
-                    <hr class="section-content-title-hr">
-
                     <div class="people-staff-title">A FIVE-YEAR INITIATIVE WITH A SHARED COMMITMENT TO A COMMON GOAL</div>
                     <br>
                     <br> <span class="section-first-letter">M</span>ission 2020 is an agile fast paced commitment, that works collectively with stakeholders to bring together the public and private sectors to deliver a net-zero emissions pathway. It is a transformative partner to those already engaged in these issues.
@@ -154,60 +125,57 @@
                 <div class="clear-fix"></div>
             </div>
         </section>
-        <section id="network">
-            <div class="section-wrapper" id="last-section-wrapper">
-                <div id="last-section" class="section-img" parallax-background parallax-ratio="0.2">
-                    <div class="section-img-title">RADICAL COLLABORATION</div>
-                </div>
-
-                <div class="section-content col-lg-8 col-lg-offset-2">
-                    <div class="section-content-title">NETWORK</div>
-                    <hr class="section-content-title-hr">
-                    <br>
-                    <br> <span class="section-first-letter">M</span>ission 2020 works through a Global Network of leaders and policy influencers to create the conditions for change and deliver breakthrough solutions. Uniquely, the heart of this network features a preponderance of distinguished and committed women.
-                    <br>
-                    <br> Global Network leaders have a personal commitment to achieving the goal of Mission 2020 and to using personal authority, positions and networks to contribute to Mission 2020's operations and to help overcome barriers to realize Mission 2020’s goal. It is deliberately drawn largely from outside traditional climate leadership to broaden the network and provide additional opportunities for progress.
-                </div>
-                <div class="clear-fix"></div>
-            </div>
-        </section>
         <section id="people">
             <div class="section-wrapper">
-                <div id="fourth-section" class="section-img" parallax-background parallax-ratio="0.2">
-                    <div class="section-img-title"> RELENTLESS OPTIMISM</div>
+                <div id="fourth-section" class="section-img" parallax-background parallax-ratio="0.1">
+                    <div class="section-img-title"> PEOPLE</div>
                 </div>
                 <div class="section-content col-lg-8 col-lg-offset-2">
-                    <div class="people-staff-title">ADVISORY BOARD</div>
-                    <hr class="people-hr">
+                    <div class="people-staff-title">M2020 STAFF</div>
+                    <hr>
                     <div class="row people-row">
-                        <div class="col-lg-1" style="width: 12.499999995%"></div>
-
                         <div class="col-lg-3">
-                            <a class="fancybox" rel="group" href="img/people/princess.png" title="<h1>H.R.H. Princess Abzeita Djigma</h1> <h3>Founder and CEO AbzeSolar S.A., Burkina Faso</h3>"><img class="img-responsive" src="img/people/princess-cropped.png" alt="" />
-                                <div class="thumbnail-title">H.R.H. Princess Abzeita Djigma</div>
+                            <a class="fancybox" rel="group" href="img/people/christina.png" title="Ms. Figueres is a world authority on global climate change and was the Executive Secretary of the UNFCCC from 2010-2016. She directed the successful Conferences of the Parties in Cancun 2010, Durban 2011, Doha 2012, Warsaw 2013, and Lima 2014, before culminating in the historical Paris Agreement of 2015. Throughout her tenure Ms. Figueres brought together national and sub national governments, corporations and activists, financial institutions and communities of faith, think tanks and technology providers, NGOs and parliamentarians, to jointly deliver the unprecedented climate change agreement. For this achievement Ms. Figueres has been credited with forging a new brand of collaborative diplomacy. In addition to her remarkable diplomatic achievements over 20 years, she has serves as Director of Renewable Energy in the Americas (REIA) and in 1995 founded the non-profit Center for Sustainable Development of the Americas (CSDA) which she directed for eight years"><img class="img-responsive" src="img/people/christina-cropped.png" alt="" />
+                                <div class="thumbnail-title">CHRISTIANA FIGUERES</div>
+                                <div class="thumbnail-subtitle">CONVENOR</div>
                             </a>
                         </div>
                         <div class="col-lg-3">
-                            <a class="fancybox" rel="group" href="img/people/helena.png" title="<h1>Helena Morrissey</h1> <h3>Non-Executive Chair, Newton Investment Management Limited, United Kingdom</h3>" alt="" /><img class="img-responsive" src="img/people/helena-cropped.png" alt="" />
-                            <div class="thumbnail-title">Helena Morrissey</div>
+                            <a class="fancybox" rel="group" href="img/people/andrew.png" title="Andrew was in charge of drafting and delivering the Paris Agreement, and crafted the substantive strategy for the UNFCCC since 2011. He has over 15 years experience leading large teams and delivering highly complex initiatives. Previously roles include International Expert in Climate Policy at the Energy Research Centre of the Netherlands advising leading firms, public-private initiatives and governments on global technology and finance strategy, as Strategies Director of the Australian Conservation Foundation, as well as a decade as a senior political and policy advisor with extensive experience in designing and implementing subnational and national policies and programmes, and campaigns in the areas of science, technology, natural resources and environment policy. "><img class="img-responsive" src="img/people/andrew-cropped.png" alt="" />
+                                <div class="thumbnail-title">ANDREW HIGHAM</div>
+                                <div class="thumbnail-subtitle">CHIEF EXECUTIVE OFFICER</div>
                             </a>
                         </div>
                         <div class="col-lg-3">
-                            <a class="fancybox" rel="group" href="img/people/achala.png" title="<h1>Dr. Achala Chandani Abeysinghe</h1> <h3>Principal Researcher and Team Leader of Climate Law, Policy and Governance Programme at International Institute for Environment and Development (IIED)</h3>"><img class="img-responsive" src="img/people/achala-cropped.png" alt="" />
-                                <div class="thumbnail-title">Dr. Achala Chandani Abeysinghe</div>
+                            <a class="fancybox" rel="group" href="img/people/tom.png" title="Tom was Senior Advisor to the Executive Secretary of the UNFCCC, where he provided political and strategic advice and led the successful groundswell campaign that was critical to the success of the Paris Agreement. He has contributed significantly to the burgeoning of the climate action landscape and developed NAZCA into the standard for tracking climate action across all sectors. He is an Advisor to the Clinton Global Initiative and is a Director of Minghung Resources. Previously he was President and Managing Director for North America at CDP. "><img class="img-responsive" src="img/people/tom-cropped.png" alt="" />
+                                <div class="thumbnail-title">TOM CARNAC</div>
+                                <div class="thumbnail-subtitle">SENIOR ADVISOR</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="fancybox" rel="group" href="img/people/rabab.png" title="Rabab was the Senior Adviser for Partnerships and Outreach in the Office of the President of the 70th Session of the United Nations General Assembly. Before joining the Office of the President, she served on the UN Secretary-General's Climate Change Support Team in the Executive Office of the Secretary-General, where she was on secondment from the World Business Council for Sustainable Development (WBCSD). Rabab has also worked at the World Economic Forum (WEF) as Associate Director for Government Engagement and International Organizations, and at the Brookings Institution's Center for Middle East Policy in Washington D.C. "><img class="img-responsive" src="img/people/rabab-cropped.png" alt="" />
+                                <div class="thumbnail-title">RABAB FAYAD</div>
+                                <div class="thumbnail-subtitle">SENIOR ADVISOR</div>
                             </a>
                         </div>
                     </div>
                     <div class="row people-row">
                         <div class="col-lg-3 people-col-centered">
-                            <a class="fancybox" rel="group" href="img/people/daniela.png" title="<h1>Daniela Saltzman</h1> <h3>Director, Generation Investment Management, United Kingdom</h3>" src="img/people/daniela.png" alt="" />
-                            <img class="img-responsive" src="img/people/daniela-cropped.png" alt="" />
-                            <div class="thumbnail-title">Daniela Saltzman</div>
+                            <a class="fancybox" rel="group" href="img/people/yass.png" title="Yassamin is a consultant in the Office of the UN Secretary-General's Envoy on Youth. Previously, she served as the Director of the Climate Action 2016 multi-stakeholder summit in Washington D.C., and as a member of the UN Secretary-General's Climate Change Support Team. Prior to this, Yassamin was the special assistant to the Senior Adviser on Partnerships in the Executive Office of the UN Secretary-General. While studying at Stanford, Yassamin interned for Congresswoman Nancy Pelosi, led a global and student-run advocacy campaign for Syria Deeply, and graduated with honors in international security studies. She is also an MPhil candidate at the University of Cambridge. "><img class="img-responsive" src="img/people/yass-cropped.png" alt="" />
+                                <div class="thumbnail-title">YASSAMIN ANSARI</div>
+                                <div class="thumbnail-subtitle">COORDINATOR, STRATEGY</div>
                             </a>
                         </div>
                         <div class="col-lg-3 people-col-centered">
-                            <a class="fancybox" rel="group" href="img/people/jim.png" title="<h1>Dr. Jim Leape</h1> <h3>Consulting Professor, Woods Institute for the Environment, Stanford University, United States</h3>"><img class="img-responsive" src="img/people/jim-cropped.png" alt="" />
-                                <div class="thumbnail-title">Dr. Jim Leape</div>
+                            <a class="fancybox" rel="group" href="img/people/monique.png" title="Monique has over 15 years of experience working in development in different countries, including Mozambique, Ethiopia, Belize and Montenegro, where she has been engaged in providing support to national institutions for policy development and development of outreach strategies. Before joining Mission 2020, she supported the Office of the Executive Secretary in the UNFCCC in the implementation of the successful groundswell campaign that aimed at engaging stakeholders in the months leading up to COP21. "><img class="img-responsive" src="img/people/monique-cropped.png" alt="" />
+                                <div class="thumbnail-title">MONIQUE NARDI</div>
+                                <div class="thumbnail-subtitle">COORDINATOR, OPERATIONS</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 people-col-centered">
+                            <a class="fancybox" rel="group" href="img/people/ana.png" title="Ana is currently studying for her Masters in Public Administration-Development Practice at the School of International and Public Affairs at Columbia University, where she expects to graduate in 2018. Before, she was an associate at the European high yield credit investments team at the Canada Pension Plan Investment Board in London for almost two years. Prior to that she spent three years as an investment banking analyst at Morgan Stanley, focusing on mergers & acquisitions and leveraged and acquisition finance, and was based both in Madrid and London. She graduated with honors from Business Administration at ESADE Business School and has a MSc in Finance from HEC Paris."><img class="img-responsive" src="img/people/ana-cropped.png" alt="" />
+                                <div class="thumbnail-title">ANA RAVINA</div>
+                                <div class="thumbnail-subtitle">INTERN</div>
                             </a>
                         </div>
                     </div>
@@ -215,68 +183,49 @@
             </div>
             <div class="section-wrapper">
                 <div class="col-lg-12" id="fifth-section">
-
-
                     <div class="section-content col-lg-8 col-lg-offset-2">
-                        <div class="people-staff-title">M2020 STAFF</div>
-                        <hr class="people-hr">
-
+                        <div class="people-staff-title">ADVISORY BOARD</div>
+                        <hr>
                         <div class="row people-row">
                             <div class="col-lg-3">
-                                <a class="fancybox" rel="group" href="img/people/christina.png" title="<h1>CHRISTIANA FIGUERES</h1><h3>CONVENOR</h3>Ms. Figueres is a world authority on global climate change and was the Executive Secretary of the UNFCCC from 2010-2016. She directed the successful Conferences of the Parties in Cancun 2010, Durban 2011, Doha 2012, Warsaw 2013, and Lima 2014, before culminating in the historical Paris Agreement of 2015. Throughout her tenure Ms. Figueres brought together national and sub national governments, corporations and activists, financial institutions and communities of faith, think tanks and technology providers, NGOs and parliamentarians, to jointly deliver the unprecedented climate change agreement. For this achievement Ms. Figueres has been credited with forging a new brand of collaborative diplomacy. In addition to her remarkable diplomatic achievements over 20 years, she has serves as Director of Renewable Energy in the Americas (REIA) and in 1995 founded the non-profit Center for Sustainable Development of the Americas (CSDA) which she directed for eight years"><img class="img-responsive" src="img/people/christina-cropped.png" alt="" />
-                                    <div class="thumbnail-title">CHRISTIANA FIGUERES</div>
-                                    <div class="thumbnail-subtitle">CONVENOR</div>
+                                <a class="fancybox" rel="group" href="img/people/princess.png" title="H.R.H. Princess Abzeita Djigma, ‎Founder and CEO AbzeSolar S.A., Burkina Faso"><img class="img-responsive" src="img/people/princess-cropped.png" alt="" />
+                                    <div class="thumbnail-title">H.R.H. Princess Abzeita Djigma</div>
                                 </a>
                             </div>
                             <div class="col-lg-3">
-                                <a class="fancybox" rel="group" href="img/people/andrew.png" title="<h1>ANDREW HIGHAM</h1><h3>CHIEF EXECUTIVE OFFICER</h3>Andrew was in charge of drafting and delivering the Paris Agreement, and crafted the substantive strategy for the UNFCCC since 2011. He has over 15 years experience leading large teams and delivering highly complex initiatives. Previously roles include International Expert in Climate Policy at the Energy Research Centre of the Netherlands advising leading firms, public-private initiatives and governments on global technology and finance strategy, as Strategies Director of the Australian Conservation Foundation, as well as a decade as a senior political and policy advisor with extensive experience in designing and implementing subnational and national policies and programmes, and campaigns in the areas of science, technology, natural resources and environment policy. "><img class="img-responsive" src="img/people/andrew-cropped.png" alt="" />
-                                    <div class="thumbnail-title">ANDREW HIGHAM</div>
-                                    <div class="thumbnail-subtitle">CHIEF EXECUTIVE OFFICER</div>
+                                <a class="fancybox" rel="group" href="img/people/helena.png" title="Helena Morrissey, Non-Executive Chair, Newton Investment Management Limited, United Kingdom" alt="" /><img class="img-responsive" src="img/people/helena-cropped.png" alt="" />
+                                <div class="thumbnail-title">Helena Morrissey</div>
                                 </a>
                             </div>
                             <div class="col-lg-3">
-                                <a class="fancybox" rel="group" href="img/people/tom.png" title="<h1>TOM CARNAC</h1><h3>SENIOR ADVISOR</h3>Tom was Senior Advisor to the Executive Secretary of the UNFCCC, where he provided political and strategic advice and led the successful groundswell campaign that was critical to the success of the Paris Agreement. He has contributed significantly to the burgeoning of the climate action landscape and developed NAZCA into the standard for tracking climate action across all sectors. He is an Advisor to the Clinton Global Initiative and is a Director of Minghung Resources. Previously he was President and Managing Director for North America at CDP. "><img class="img-responsive" src="img/people/tom-cropped.png" alt="" />
-                                    <div class="thumbnail-title">TOM CARNAC</div>
-                                    <div class="thumbnail-subtitle">SENIOR ADVISOR</div>
+                                <a class="fancybox" rel="group" href="img/people/achala.png" title="Dr. Achala Chandani Abeysinghe, Principal Researcher and Team Leader of Climate Law, Policy and Governance Programme at International Institute for Environment and Development (IIED) "><img class="img-responsive" src="img/people/achala-cropped.png" alt="" />
+                                    <div class="thumbnail-title">Dr. Achala Chandani Abeysinghe</div>
                                 </a>
                             </div>
                             <div class="col-lg-3">
-                                <a class="fancybox" rel="group" href="img/people/rabab.png" title="<h1>RABAB FAYAD</h1><h3>SENIOR ADVISOR</h3>Rabab was the Senior Adviser for Partnerships and Outreach in the Office of the President of the 70th Session of the United Nations General Assembly. Before joining the Office of the President, she served on the UN Secretary-General's Climate Change Support Team in the Executive Office of the Secretary-General, where she was on secondment from the World Business Council for Sustainable Development (WBCSD). Rabab has also worked at the World Economic Forum (WEF) as Associate Director for Government Engagement and International Organizations, and at the Brookings Institution's Center for Middle East Policy in Washington D.C. "><img class="img-responsive" src="img/people/rabab-cropped.png" alt="" />
-                                    <div class="thumbnail-title">RABAB FAYAD</div>
-                                    <div class="thumbnail-subtitle">SENIOR ADVISOR</div>
+                                <a class="fancybox" rel="group" href="img/people/daniela.png" title="Daniela Saltzman, Director, Generation Investment Management, United Kingdom" src="img/people/daniela.png" alt="" />
+                                <img class="img-responsive" src="img/people/daniela-cropped.png" alt="" />
+                                <div class="thumbnail-title">Daniela Saltzman</div>
                                 </a>
                             </div>
                         </div>
                         <div class="row people-row">
                             <div class="col-lg-3 people-col-centered">
-                                <a class="fancybox" rel="group" href="img/people/yass.png" title="<h1>YASSAMIN ANSARI</h1><h3>COORDINATOR, STRATEGY</h3>Yassamin is a consultant in the Office of the UN Secretary-General's Envoy on Youth. Previously, she served as the Director of the Climate Action 2016 multi-stakeholder summit in Washington D.C., and as a member of the UN Secretary-General's Climate Change Support Team. Prior to this, Yassamin was the special assistant to the Senior Adviser on Partnerships in the Executive Office of the UN Secretary-General. While studying at Stanford, Yassamin interned for Congresswoman Nancy Pelosi, led a global and student-run advocacy campaign for Syria Deeply, and graduated with honors in international security studies. She is also an MPhil candidate at the University of Cambridge. "><img class="img-responsive" src="img/people/yass-cropped.png" alt="" />
-                                    <div class="thumbnail-title">YASSAMIN ANSARI</div>
-                                    <div class="thumbnail-subtitle">COORDINATOR, STRATEGY</div>
-                                </a>
-                            </div>
-                            <div class="col-lg-3 people-col-centered">
-                                <a class="fancybox" rel="group" href="img/people/monique.png" title="<h1>MONIQUE NARDI</h1><h3>COORDINATOR, OPERATIONS</h3>Monique has over 15 years of experience working in development in different countries, including Mozambique, Ethiopia, Belize and Montenegro, where she has been engaged in providing support to national institutions for policy development and development of outreach strategies. Before joining Mission 2020, she supported the Office of the Executive Secretary in the UNFCCC in the implementation of the successful groundswell campaign that aimed at engaging stakeholders in the months leading up to COP21. "><img class="img-responsive" src="img/people/monique-cropped.png" alt="" />
-                                    <div class="thumbnail-title">MONIQUE NARDI</div>
-                                    <div class="thumbnail-subtitle">COORDINATOR, OPERATIONS</div>
-                                </a>
-                            </div>
-                            <div class="col-lg-3 people-col-centered">
-                                <a class="fancybox" rel="group" href="img/people/ana.png" title="<h1>ANA RAVINA</h1><h3>INTERN</h3>Ana is currently studying for her Masters in Public Administration-Development Practice at the School of International and Public Affairs at Columbia University, where she expects to graduate in 2018. Before, she was an associate at the European high yield credit investments team at the Canada Pension Plan Investment Board in London for almost two years. Prior to that she spent three years as an investment banking analyst at Morgan Stanley, focusing on mergers & acquisitions and leveraged and acquisition finance, and was based both in Madrid and London. She graduated with honors from Business Administration at ESADE Business School and has a MSc in Finance from HEC Paris."><img class="img-responsive" src="img/people/ana-cropped.png" alt="" />
-                                    <div class="thumbnail-title">ANA RAVINA</div>
-                                    <div class="thumbnail-subtitle">INTERN</div>
+                                <a class="fancybox" rel="group" href="img/people/jim.png" title="Dr. Jim Leape, Consulting Professor, Woods Institute for the Environment, Stanford University, United States "><img class="img-responsive" src="img/people/jim-cropped.png" alt="" />
+                                    <div class="thumbnail-title">Dr. Jim Leape</div>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="clear-fix"></div>
             </div>
         </section>
 
         <section>
             <div class="section-wrapper" id="footer-section-wrapper">
                 <div id="footer-section-content" class="section-content col-lg-10 col-lg-offset-1">
-                    <p class="text-muted">Created by <a href="http://deadheadllc.us" target="_blank">Deadhead LLC.</a> | Photographs courtesy of <a href="http://www.jacelumley.com" target="_blank">Jace Lumley</a>.</p>
+                    <p class="text-muted">Created by
+                        <a href="http://deadheadllc.us" target="_blank"><img id="dh-logo" src="img/dh_logo_hd.png" /></a>, photography by <a href="http://www.jacelumley.com" target="_blank">@jacelumley</a></p>
                 </div>
                 <div class="clear-fix"></div>
             </div>
@@ -286,7 +235,6 @@
 
     <!-- scripts -->
     <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>-->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.min.js"></script>
@@ -305,6 +253,15 @@
 
     <script>
         $(document).ready(function() {
+
+            $('a.page-scroll').bind('click', function(event) {
+                var $anchor = $(this);
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top
+                }, 1500);
+                event.preventDefault();
+            });
+
             $(".fancybox").fancybox({
                 helpers: {
                     title: {
@@ -316,29 +273,6 @@
                         }
                     }
                 }
-            });
-
-            var isScrolled = false;
-            $(window).scroll(function() {
-
-                if (document.body.scrollTop === 0) {
-                    $('.navbar').removeClass('navbar-bg');
-                    isScrolled = false;
-                }
-                if (!isScrolled && document.body.scrollTop != 0) {
-                    //$('.navbar').css("cssText", "background-color: black !important;");
-                    $('.navbar').addClass('navbar-bg');
-                    isScrolled = true;
-                }
-            })
-
-
-            $('a.page-scroll').bind('click', function(event) {
-                var $anchor = $(this);
-                $('html, body').stop().animate({
-                    scrollTop: $($anchor.attr('href')).offset().top
-                }, 1500);
-                event.preventDefault();
             });
         });
 
