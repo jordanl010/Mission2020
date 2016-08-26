@@ -379,3 +379,9 @@ video#bgvid {
         height: 70px !important;
     }
 }
+
+@media (max-width: 1379px) {
+    .section-img-title {
+        padding-top: 17vh !important;
+    }
+}
