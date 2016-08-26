@@ -305,6 +305,18 @@
 
     <script>
         $(document).ready(function() {
+            $(".fancybox").fancybox({
+                helpers: {
+                    title: {
+                        type: 'outside'
+                    },
+                    overlay: {
+                        css: {
+                            'background': 'rgba(58, 42, 45, 0.95)'
+                        }
+                    }
+                }
+            });
 
             var isScrolled = false;
             $(window).scroll(function() {
@@ -327,21 +339,6 @@
                     scrollTop: $($anchor.attr('href')).offset().top
                 }, 1500);
                 event.preventDefault();
-            });
-
-
-            $(".fancybox").fancybox({
-                helpers: {
-                    title: {
-                        type: 'outside'
-                    },
-                    overlay: {
-                        css: {
-                            'background': 'rgba(58, 42, 45, 0.95)'
-                        }
-                    }
-                },
-                minWidth: 280
             });
         });
 

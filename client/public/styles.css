@@ -97,7 +97,8 @@ a:link {
     background: #272727;
 }
 
-.dropdown-toggle:active, .open .dropdown-toggle {
+.dropdown-toggle:active,
+.open .dropdown-toggle {
     background: #272727 !important;
 }
 
@@ -331,9 +332,9 @@ video#bgvid {
 
 
 /*****      LIGHTBOX STYLES      *****/
+
 h1,
-h3
-{
+h3 {
     text-align: center;
 }
 
@@ -345,8 +346,10 @@ h3 {
     margin-top: 0;
 }
 
+
 /*****      FOOTER STYLES      *****/
-#footer-section-content{
+
+#footer-section-content {
     text-align: right;
     margin-top: 2vh !important;
     margin-bottom: 2vh !important;
@@ -357,6 +360,7 @@ h3 {
 #footer-section-wrapper {
     background-color: black;
 }
+
 
 /*****      MEDIA QUERIES       *****/
 
