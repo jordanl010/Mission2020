@@ -201,7 +201,7 @@ video#bgvid {
     width: auto;
     height: auto;
     z-index: -100;
-    background: url('../img/nature.png') no-repeat;
+    background: url('../img/still_img.png') no-repeat;
     background-size: cover;
 }
 
