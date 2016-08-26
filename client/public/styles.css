@@ -127,7 +127,7 @@ video#bgvid {
 }
 
 .section-img-title {
-    padding-top: 25vh;
+    padding-top: 10%;
     font-family: 'Montserrat', sans-serif;
     font-size: 82px !important;
     text-align: center;
@@ -382,6 +382,6 @@ video#bgvid {
 
 @media (max-width: 1379px) {
     .section-img-title {
-        padding-top: 17vh !important;
+        padding-top: 10% !important;
     }
 }
