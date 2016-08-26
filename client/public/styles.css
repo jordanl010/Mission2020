@@ -380,8 +380,14 @@ video#bgvid {
     }
 }
 
-@media (max-width: 1379px) {
+@media (max-width: 750px) {
     .section-img-title {
-        padding-top: 10% !important;
+        padding-top: 25% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .section-img-title {
+        padding-top: 35% !important;
     }
 }
