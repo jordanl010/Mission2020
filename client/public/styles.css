@@ -64,7 +64,7 @@ a:link {
     margin-bottom: 0 !important;
     padding: 0 !important;
     background-color: transparent;
-    width: 99vw;
+    width: 100vw;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 100px;
@@ -79,6 +79,26 @@ a:link {
     -moz-transition: all 1s;
     -o-transition: all 1s;
     transition: all 1s
+}
+
+.dropdown {
+    height: 100%;
+}
+
+.btn-primary.dropdown-toggle {
+    background: transparent;
+    border: 0;
+    font-size: 13px;
+    font-weight: bold;
+    height: 45px;
+}
+
+.dropdown-toggle:hover {
+    background: #272727;
+}
+
+.dropdown-toggle:active, .open .dropdown-toggle {
+    background: #272727 !important;
 }
 
 
@@ -311,6 +331,19 @@ video#bgvid {
 
 
 /*****      LIGHTBOX STYLES      *****/
+h1,
+h3
+{
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 0;
+}
 
 /*****      FOOTER STYLES      *****/
 #footer-section-content{

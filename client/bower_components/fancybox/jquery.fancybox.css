@@ -191,6 +191,7 @@
 	position: fixed;
 	bottom: 0;
 	right: 0;
+    background: rgba(0, 0, 0, 0.952941) !important;
 }
 
 .fancybox-lock .fancybox-overlay {
@@ -205,6 +206,7 @@
 	font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
 	position: relative;
 	text-shadow: none;
+    text-align: center;
 	z-index: 8050;
 }
 
